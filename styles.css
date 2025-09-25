@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --azul-escuro: #0D47A1;
+        --azul-claro: #E3F2FD;
+            --verde: #2E7D32;
+                --texto-escuro: #212121;
+                    --branco: #FFFFFF;
+                    }
+
+                    body {
+                        font-size: 1rem;
+                            font-family: 'Montserrat', sans-serif;
+                                background-color: var(--azul-claro);
+                                    color: var(--texto-escuro);
+                                    }
+
+                                    header {
+                                        background-color: var(--branco);
+                                        }
+
+                                        section {
+                                            padding-bottom: 5rem;
+                                            }
+
+                                            .nav-link {
+                                                color: var(--azul-escuro);
+                                                    font-weight: 600;
+                                                    }
+                                                    .nav-link:hover {
+                                                        color: var(--verde);
+                                                        }
+
+                                                        .inicio-fundo {
+                                                            background-image: url('img/4965007.jpg');
+                                                                background-size: cover;
+                                                                    background-position: right;
+                                                                        border-radius: 80px;
+                                                                            width: 100%;
+                                                                                height: 606px;
+                                                                                    padding: 40px;
+                                                                                        margin: 0 auto;
+                                                                                            color: var(--branco);
+                                                                                            }
+
+                                                                                            .img-inicio {
+                                                                                                position: absolute;
+                                                                                                    right: 0;
+                                                                                                        top: 18rem;
+                                                                                                            width: 45rem;
+                                                                                                                height: auto;
+                                                                                                                }
+
+                                                                                                                .esquerda-conteudo {
+                                                                                                                    display: flex;
+                                                                                                                        flex-direction: column;
+                                                                                                                            align-items: flex-start;
+                                                                                                                                gap: 1rem;
+                                                                                                                                }
+
+                                                                                                                                .botao-inicio {
+                                                                                                                                    background-color: var(--azul-escuro);
+                                                                                                                                        border-radius: 30px;
+                                                                                                                                            border: none;
+                                                                                                                                                width: 14em;
+                                                                                                                                                    height: 3em;
+                                                                                                                                                        align-content: center;
+                                                                                                                                                            color: var(--branco);
+                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                    transition: background 0.3s ease;
+                                                                                                                                                                    }
+                                                                                                                                                                    .botao-inicio:hover {
+                                                                                                                                                                        background-color: var(--verde);
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .display-4 {
+                                                                                                                                                                            text-shadow: -3px 3px var(--verde);
+                                                                                                                                                                            }
+
+                                                                                                                                                                            #tropicalia {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                                    padding-top: 5rem;
+                                                                                                                                                                                        margin-top: 3rem;
+                                                                                                                                                                                            margin-bottom: 3rem;
+                                                                                                                                                                                                background: url('img/flor.png') top right no-repeat,
+                                                                                                                                                                                                        url('img/flor-esquerda.png') bottom left no-repeat;
+                                                                                                                                                                                                            background-size: 180px 180px;
+                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                            #tropicalia .container {
+                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                                                        justify-content: center;
+                                                                                                                                                                                                                            position: relative;
+                                                                                                                                                                                                                                z-index: 1;
+                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                h2 {
+                                                                                                                                                                                                                                    font-family: 'Lemon', serif;
+                                                                                                                                                                                                                                        font-size: 2.5em;
+                                                                                                                                                                                                                                            color: var(--azul-escuro);
+                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                            #galeria {
+                                                                                                                                                                                                                                                background-color: var(--azul-claro);
+                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                .fundo-galeria {
+                                                                                                                                                                                                                                                    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+                                                                                                                                                                                                                                                        background-size: 180px 180px;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        #contato {
+                                                                                                                                                                                                                                                            background-image: url('img/4965007.jpg');
+                                                                                                                                                                                                                                                                background-size: cover;
+                                                                                                                                                                                                                                                                    padding: 4rem 0;
+                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                    .formulario {
+                                                                                                                                                                                                                                                                        background-color: var(--branco);
+                                                                                                                                                                                                                                                                            padding: 2rem;
+                                                                                                                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                                                                                                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                                                                                                            border: 2px solid var(--azul-escuro);
+                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                            .formulario button {
+                                                                                                                                                                                                                                                                                                background-color: var(--verde);
+                                                                                                                                                                                                                                                                                                    border: none;
+                                                                                                                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                                                                                                                            color: var(--branco);
+                                                                                                                                                                                                                                                                                                                transition: background 0.3s ease;
+                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                .formulario button:hover {
+                                                                                                                                                                                                                                                                                                                    background-color: var(--azul-escuro);
+                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                    .form-control {
+                                                                                                                                                                                                                                                                                                                        background-color: #F5F5F5;
+                                                                                                                                                                                                                                                                                                                            color: var(--texto-escuro);
+                                                                                                                                                                                                                                                                                                                                border: 1px solid #BDBDBD;
+                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                .menu-acessibilidade {
+                                                                                                                                                                                                                                                                                                                                    position: fixed;
+                                                                                                                                                                                                                                                                                                                                        top: 2rem;
+                                                                                                                                                                                                                                                                                                                                            right: 20px;
+                                                                                                                                                                                                                                                                                                                                                z-index: 1000;
+                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                .rotacao-botao {
+                                                                                                                                                                                                                                                                                                                                                    transform: rotate(-90deg);
+                                                                                                                                                                                                                                                                                                                                                        transform-origin: right center;
+                                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                                        .opcoes-acessibilidade {
+                                                                                                                                                                                                                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                                                                                                                                    flex-direction: column;
+                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                    .opcoes-acessibilidade button {
+                                                                                                                                                                                                                                                                                                                                                                        margin-bottom: 5px;
+                                                                                                                                                                                                                                                                                                                                                                            background-color: var(--azul-escuro);
+                                                                                                                                                                                                                                                                                                                                                                                color: var(--branco);
+                                                                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                                                                                            padding: 0.5rem 1rem;
+                                                                                                                                                                                                                                                                                                                                                                                                transition: background 0.3s ease;
+                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                .opcoes-acessibilidade button:hover {
+                                                                                                                                                                                                                                                                                                                                                                                                    background-color: var(--verde);
+                                                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                                                    .apresenta-lista {
+                                                                                                                                                                                                                                                                                                                                                                                                        display: none;
+                                                                                                                                                                                                                                                                                                                                                                                                        }
